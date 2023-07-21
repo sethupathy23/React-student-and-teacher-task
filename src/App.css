@@ -1,0 +1,47 @@
+.data{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.add-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.details{
+  text-align: center;
+}
+.card{
+  max-width: 250px;
+  height: auto;
+  border: 2px solid rgb(84, 80, 80);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  gap: 10px;
+
+  padding: 10px;
+}
+.d-block{
+  object-fit: contain;
+  height: 84vh;
+}
+.slides{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:40px;
+}
+.i-blo{
+  width:700px;
+  height:500px;
+  object-fit: cover;
+}
